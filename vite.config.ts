@@ -6,7 +6,7 @@ export default defineConfig({
   },
   define: {
     'import.meta.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-    'import.meta.env.VF_DM_API_KEY': JSON.stringify(process.env.VF_DM_API_KEY)
+    'import.meta.env.VITE_VF_DM_API_KEY': JSON.stringify(process.env.VITE_VF_DM_API_KEY)
   },
   envPrefix: 'VF_',
   server: {
