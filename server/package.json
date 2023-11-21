@@ -3,8 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "tsx --watch src/main.ts",
-    "start": "node dist/main.js",
-    "build": "tsc"
+    "start": "node dist/server/src/main.js",
+    "build": "npx tsc"
   },
   "dependencies": {
     "body-parser": "1.20.2",
